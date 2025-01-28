@@ -1,1 +1,35 @@
-#center {text-align: center;font-size: medium;align-items: baseline;padding: 20em;}  #plus {background-color: lime;border-color: lime;font-size: 40px;}  #minus {background-color: indianred;border-color: indianred;font-size: 40px;}  #num {font-size: 40px;}  body{background-color: blueviolet;}
+#center {
+    text-align: center;
+    font-size: medium;
+    align-items: baseline;
+    padding: 20em;
+}
+
+button {
+    background-color: indianred;
+    border-color: indianred;
+    font-size: 40px;
+}
+
+#timer {
+    font-size: 30px;
+    background-color: gray;
+    border: gray;
+}
+
+#time {
+    font-size: 30px;
+}
+
+#plus {
+    background-color: lime;
+    border-color: lime;
+}
+
+#num {
+    font-size: 40px;
+}
+
+body{
+    background-color: blueviolet;
+}

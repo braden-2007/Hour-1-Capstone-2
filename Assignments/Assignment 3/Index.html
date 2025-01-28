@@ -1,1 +1,27 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Title</title><link rel="stylesheet" href="Styles.css"></head><body id="center"><button id="plus" onmouseover="interval = setInterval(plus,10)" onmouseout="clearInterval(interval)">+1</button><button id="minus" onmouseover="interval = setInterval(minus,10)" onmouseout="clearInterval(interval)">-1</button><p id="num"></p><div id="timer"></div><script src="Scripts.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="Styles.css">
+    </head>
+
+    <body id="center">
+
+        <button id="plus" onmouseover="interval1 = setInterval(plus,10)" onmouseout="clearInterval(interval1)">+1</button>
+        <button id="minus" onmouseover="interval2 = setInterval(minus,10)" onmouseout="clearInterval(interval2)">-1</button>
+
+        <p id="num"></p>
+
+        <div >
+            <button id="timer" onmousedown="interval3 = setInterval(countdown,1000);">Start</button>
+            <p id="time" onmousedown="
+            if(currentTime === 'DONE, Restart?'){
+                    currentTime = 10
+            }"
+            ></p>
+        </div>
+
+        <script src="Scripts.js"></script>
+    </body>
+</html>
