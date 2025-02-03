@@ -1,3 +1,9 @@
+class ValidationError extends Error{
+    constructor(message){
+        super(message);
+        this.name = "VALIDATIONERROR";
+    }
+}
 function validateUser(user){
     if (typeof user !=  "string"){
         throw new Error("NOT VALID");
@@ -11,7 +17,11 @@ try{
 }catch (error){
     console.error(error.message);
 }
-
+class hi {
+    constructor(turtle){
+        this.turtle = turtle
+    }
+}
 
 try{
     console.log(validateUser("RedRole"));
