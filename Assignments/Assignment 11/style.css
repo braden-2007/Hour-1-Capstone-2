@@ -1,0 +1,12 @@
+#center {
+    text-align: center;
+    font-size: medium;
+    align-items: baseline;
+    padding: 20em;
+}
+body{
+    background-color: cornflowerblue;
+}
+#userInput{
+    font-size: 15px;
+}
