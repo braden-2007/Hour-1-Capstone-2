@@ -21,4 +21,4 @@ const processNumber = pipe(increment, doubleValue, decrease, squaredMinusOne, pl
 function getUserInput(){
     var userInput = processNumber(parseInt(document.getElementById("userInput").value));
     document.getElementById("name").innerHTML = "After some calculations, your new number is  " + userInput;
-}
+} 
