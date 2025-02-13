@@ -1,0 +1,16 @@
+input {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+body {
+    background: peachpuff;
+    text-align: center;
+    font-size: medium;
+    align-items: baseline;
+    padding: 10em;
+}
